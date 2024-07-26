@@ -13,5 +13,6 @@ const schoolSchema = new mongoose.Schema({
 },{timestamps:true}
 )
 
+
 const schoolModel = mongoose.model('users', schoolSchema)
 module.exports = schoolModel
